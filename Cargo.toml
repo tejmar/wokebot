@@ -1,0 +1,19 @@
+[package]
+name = "woke-nudge-bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+dotenvy = "0.15"
+log = "0.4"
+pretty_env_logger = "0.5"
+rand = "0.8"
+reqwest = { version = "0.12", features = ["json", "gzip", "brotli", "deflate", "rustls-tls"] }
+rusqlite = { version = "0.38", features = ["bundled"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+teloxide = { version = "0.17", features = ["macros"] }
+time = "0.3"
+tokio = { version = "1.43", features = ["rt-multi-thread", "macros"] }
+uuid = { version = "1.12", features = ["v4"] }
