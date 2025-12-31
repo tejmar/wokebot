@@ -39,3 +39,5 @@ cargo run
 - The bot only processes group/supergroup messages.
 - Random chance controls the percentage of flagged items that trigger admin alerts.
 - Threshold controls the minimum classifier severity (0..1) required to flag.
+
+THIS BOT IS DEDICATED TO TC AND HIS CONSTANT BATTLE TO FIGHT HATRED AND BIGOTRY ONLINE.
