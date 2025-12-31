@@ -40,4 +40,11 @@ cargo run
 - Random chance controls the percentage of flagged items that trigger admin alerts.
 - Threshold controls the minimum classifier severity (0..1) required to flag.
 
-THIS BOT IS DEDICATED TO TC AND HIS CONSTANT BATTLE TO FIGHT HATRED AND BIGOTRY ONLINE.
+## Security & Safety
+- Rust provides memory safety in safe code; this project does not use `unsafe`.
+- Keep `TG_BOT_TOKEN` and `OPENROUTER_API_KEY` private (use `.env`, avoid committing).
+- Protect `bot.sqlite` with appropriate file permissions; it contains moderation history.
+- Run a single bot instance per token to avoid polling conflicts.
+
+## Dedication
+This bot is dedicated to TC and his constant battle to fight hatred and bigotry online.
